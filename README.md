@@ -15,3 +15,5 @@ Esta desarrollado con las tecnologias:
 URL del sition en produción:
 
 http://www.iabox.com.ar/
+
+© 2021 Janus Automation. All rights reserved.
