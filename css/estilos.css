@@ -1,0 +1,306 @@
+body,
+html {
+    color: #000000;    
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    letter-spacing: 0.025rem;
+}
+body{
+  padding: 0;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    h1{
+      font-size: 45px !important;
+    }
+    p.carousel-text {
+      font-size: 1.7rem !important;
+    }
+  }
+
+  .footer, a.footer {
+    background-color: #000202;
+    color: #fff !important;
+  }
+.my-5{
+  margin-bottom: 0!important;
+}
+
+.list-inline{
+  margin-bottom: 0;
+}
+
+nav{
+  background-color: #000202;
+}
+
+.navbar-nav li a:hover,.navbar-nav li.current a {
+  color: #f4511e !important;
+}
+
+.navbar li a{
+  color: #fff !important;
+}
+
+
+.cards {
+  transition: all 0.2s ease;
+  cursor: pointer
+}
+
+.cards:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1)
+}
+
+h4 {
+	font-size: 19px;
+	line-height: 1.375em;
+	color: #303030;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.logo-small {
+  color: #E75F11;
+  font-size: 90px;
+}
+
+.logo-small sgv{
+	box-shadow: 0 0 0 3px #fff;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s linear;
+}
+
+.logo-small:hover svg{
+  transform: scale(1.2);
+}
+
+.hero-image {
+  background-image: url("/img/pexels-athena-2582937.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+
+/* Contact Section
+--------------------------------*/
+#contacto {
+  padding: 30px 0;
+}
+
+#contacto .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+#contacto .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #f4511e;
+}
+
+#contacto .contact-info address, #contacto .contact-info p {
+  margin-bottom: 0;
+  color: #000;
+}
+
+#contacto .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #cccccc;
+}
+
+#contacto .contact-info a,#contacto .contact-info address {
+  color: black;
+}
+
+#contacto .contact-info a:hover {
+  color: #f4511e;
+}
+
+#contacto .contact-address, #contacto .contact-phone, #contacto .contact-email {
+  margin-bottom: 20px;
+}
+.contac-text{
+  color: black;
+}
+@media (min-width: 768px) {
+  #contacto .contact-address, #contacto .contact-phone, #contacto .contact-email {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #contacto .contact-phone {
+    border-right: 1px solid #ddd;
+  }
+}
+
+/* Service Section
+--------------------------------*/
+#servicios {
+  padding: 40px 0;
+}
+
+#servicios h3,#prodText, #algoritmosTittle, #contactoTittle{
+  font-size: 2.75rem !important;
+  font-weight: 400 !important;
+  text-align: center;      
+}
+#contactoTittle{
+  padding-bottom: 1rem;
+  margin-bottom: 60px;
+}
+#servicios h3 span{
+  color: #f4511e;
+  text-decoration: underline;
+}
+.servicios-info-tex{
+  color: black;
+  text-align:justify;
+  font-size: larger;
+}
+#algoritmos{
+  padding: 40px;
+}
+
+@media (max-width: 768px) {
+  #btn-back-to-top {
+    bottom: 15px;
+  }
+  .watermark{
+    display: none;
+  }
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background: #f4511e;
+  color: #fff;
+  outline: none;
+  font-size: 16px;
+  padding: 6px 12px 9px 12px;
+  border-radius: 2px;
+}
+
+.card-body h6{
+  font-weight: bolder !important;
+}
+
+.card-body {
+  background-color: #E7E7E7;
+}
+ p.carousel-text {
+  font-size: 40px !important;
+}
+
+div.carousel-caption h1{
+  color: #f4511e !important;
+}
+
+.icono-inline{
+  color: #f4511e;
+}
+
+.section-tittle{
+  color: #f4511e;
+}
+
+#contactoTttle{
+  color: white;
+}
+
+.box-img-diagrama{
+  width: 100%;
+  height: auto;
+}
+
+#img-diagrama{
+  width: 100%;
+}
+.watermark-img{
+  position: relative;        
+}
+
+.watermark
+{
+  position:absolute;
+  top:75px;
+  right:15px;
+  z-index:99;
+  color:white; 
+}
+footer p{
+  font-size: smaller;
+}
+.watermark p{
+  margin-bottom: 13px;
+}
+
+#stamp-img{
+  height: 100px;
+}
+
+.bd-placeholder-img{
+  object-fit: cover;
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .card-img-top{
+    height: inherit;
+  }
+ }
+
+@media (max-width: 480px) {
+  .card-img-top{
+    height: auto;
+  }
+  #servicios h3,#prodText, #algoritmosTittle, #contactoTittle{
+    font-size: 2.0rem !important;
+  }
+  #caption-text-1,#caption-text-2,#caption-text-3,#caption-text-4{
+    font-size: 1.5rem !important;
+    text-align: left !important;
+    display: inline-block;
+    padding-left: 0;
+    padding-top: 0;
+  }
+}
+
+.caption-text {
+	text-shadow: 0px 1px 1px #000;	
+	display: inline;
+	padding: 20px;
+}
