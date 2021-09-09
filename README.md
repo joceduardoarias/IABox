@@ -4,11 +4,9 @@ Este es una web site para el proyecto IABOX.
 
 Esta desarrollado con las tecnologias:
 
--Boostrap
-  bootstrap@4.6.0
+- bootstrap@4.6.0
 
--Jquery
-  jQuery v3.6.0
+- jQuery v3.6.0
 
 - CSS3
 
