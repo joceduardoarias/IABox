@@ -19,6 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200;400&display=swap" rel="stylesheet">
     <link rel="icon" sizes="256x256" href="favico.png">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/carousel.css">
@@ -79,16 +80,16 @@
     <!--==========================
       Caroucel Section
     ============================-->
-    <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
-            <li id="d1one" data-target="#myCarousel1" data-slide-to="0" class="active"></li>
-            <li id="d1two" data-target="#myCarousel1" data-slide-to="1"></li>
-            <li id="d1three" data-target="#myCarousel1" data-slide-to="2"></li>
-            <li id="d1four" data-target="#myCarousel1" data-slide-to="3"></li>
+            <li id="d1one" data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li id="d1two" data-target="#myCarousel" data-slide-to="1"></li>
+            <li id="d1three" data-target="#myCarousel" data-slide-to="2"></li>
+            <li id="d1four" data-target="#myCarousel" data-slide-to="3"></li>
           </ol>
           <div class="carousel-inner">
             
-            <div class="carousel-item  active ">
+            <div id="item-1" class="carousel-item  active ">
               <!-- <img class="bd-placeholder-img" width="100%" height="100%" src="./img/Collage5_LR.gif" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></img> -->
               <picture>
                 <source srcset="./img/Collage5_LR.gif" media="(min-width: 768px)">
@@ -100,11 +101,15 @@
                 <div class="carousel-caption text-left" >
                   <h1>Inteligencia</h1>
                   <p id="caption-text-1" class="carousel-text caption-text">Para tu seguridad</p>
+                  <!-- <a href="something" class="buttonHeader" style="background-color:#f1bb4e"><i class="fas fa-shopping-cart"></i> Lo quiero!</a> -->
+                </div>
+                <div class="carousel-caption text-right">
+                  <a  href="mailto:iabox@ipsecurity.com.ar" target="blank" class="buttonHeader" style="background-color:#f4511e"><i class="fas fa-shopping-cart"></i> Lo quiero!</a>
                 </div>
               </div>
             </div>
 
-            <div class="carousel-item">
+            <div id="item-2" class="carousel-item">
               <!-- <img class="bd-placeholder-img" width="100%" height="100%" src="./img/20210902_142253.jpg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></img>                 -->
               <picture>
                 <source srcset="./img/Inteligencia-large.gif" media="(min-width: 768px)">
@@ -116,11 +121,15 @@
                 <div class="carousel-caption text-left">
                   <h1>Inteligencia</h1>
                   <p id="caption-text-2" class="carousel-text caption-text">Para tus datos</p>
+                  <!-- <a href="something" class="buttonHeader" style="background-color:#f1bb4e"><i class="fas fa-shopping-cart"></i> Comprar</a> -->
+                </div>
+                <div class="carousel-caption text-right">
+                  <a  href="mailto:iabox@ipsecurity.com.ar" target="blank" class="buttonHeader" style="background-color:#f4511e"><i class="fas fa-shopping-cart"></i> Comprar</a>
                 </div>
               </div>
             </div>
             
-            <div class="carousel-item">
+            <div id="item-3" class="carousel-item">
               <!-- <img class="bd-placeholder-img" width="100%" height="100%" src="./img/camaras_LR.gif" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></img> -->
               <picture>
                 <source srcset="./img/camaras-large.gif" media="(min-width: 768px)">
@@ -132,10 +141,14 @@
                 <div class="carousel-caption text-left">
                   <h1>Integración</h1>
                   <p id="caption-text-3" class="carousel-text caption-text">Saca provecho a tu plataforma actual</p>
+                  <!-- <a href="something" class="buttonHeader" style="background-color:#f1bb4e"><i class="fas fa-shopping-cart"></i> Comienza Ahora</a> -->
+                </div>
+                <div class="carousel-caption text-right">
+                  <a  href="mailto:iabox@ipsecurity.com.ar" target="blank" class="buttonHeader" style="background-color:#f4511e"><i class="fas fa-shopping-cart"></i> Comienza Ahora</a>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div id="item-4" class="carousel-item">
               <!-- <img class="bd-placeholder-img" width="100%" height="100%" src="./img/1000x512.gif" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></img> -->
               <picture>
                 <source srcset="./img/Modular_LR.gif" media="(min-width: 768px)">
@@ -147,18 +160,22 @@
                 <div class="carousel-caption text-left">
                   <h1 class="">Modular</h1>
                   <p id="caption-text-4" class="carousel-text caption-text">Contrata sólo lo que necesites</p>
+                  <!-- <a href="something" class="buttonHeader text-right" style="background-color:#f1bb4e"><i class="fas fa-shopping-cart"></i> Pedir cotización</a> -->
+                </div>
+                <div class="carousel-caption text-right">
+                  <a  href="mailto:iabox@ipsecurity.com.ar" target="blank" class="buttonHeader text-right" style="background-color:#f4511e"><i class="fas fa-shopping-cart"></i> Pedir cotización</a>
                 </div>
               </div>
             </div>                        
           </div>
-          <div class="watermark">
-            <img id="stamp-img" src="./img/stamp-11.png" alt="">
+          <div class="watermark">  
+            <img id="stamp-img" src="./img/stamp-6.png" alt="">
           </div>          
-          <a class="carousel-control-prev" href="#myCarousel1" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#myCarousel1" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
@@ -174,14 +191,61 @@
             <h3 id="servicioTittle" class="elemento-oculto section-tittle">SERVICIO</h3>
             <br>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 elemento-oculto" id="img-diagrama-box">
-            <img id="img-diagrama" src="./img/arquitectura.png" alt="">
-          </div>
-          <div class="col-lg-6 text-center elemento-oculto" id="servicios-info-box">            
+          <div class="col-lg-12">
             <p class="servicios-info-tex"> <strong>IA Box</strong> es una solución de seguridad modular basada en inteligencia artificial, que combina un producto de instalación local 
               en la infraestructura existente con un servicio de monitoreo centralizado y una analítica de datos en la nube.</p>
+          </div>
+        </div>
+        <div class="row py-4">
+          <div class="col-lg-6 elemento-oculto" id="img-diagrama-box">
+            <img id="img-diagrama" src="./img/Aquitectura-2.png" alt="">
+          </div>
+          <div class="col-lg-6 text-center elemento-oculto" id="servicios-info-box">            
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">                      
+                      ¿Como funciona la <strong>IA Box</strong>?  <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </h2>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">                    
+                    El servicio IA Box consta de un equipo que se coloca localmente en las instalaciones, el cual monitorea las cámaras con los algoritmos configurados sin necesidad de interacción humana y alerta a la central de monitoreo 24x7 sobre eventos de intrusión, seguridad operativa, salud ocupacional o con fines estadísticos (Business Intelligence). El usuario luego puede consultar con un acceso web personalizado el listado de eventos con su registro fotográfico o recibir las notificaciones en su celular vía Telegram.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      ¿Que tecnología utiliza la <strong>IA Box</strong>?<i class="fas fa-chevron-down"></i>                      
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    IA Box utiliza modelos de aprendizaje profundo (Deep Learning), los cuales están compuestos por redes neuronales que imitan el comportamiento del cerebro y pueden aprender a detectar objetos o patrones de comportamiento, entre un sin número de posibilidades.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      ¿Como adquirir la <strong>IA Box</strong>? <i class="fas fa-chevron-down"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Con la compra de un equipo (perteneciente a cualquier serie) más un fee de servicio mensual accesible, Ud. o su empresa podrá contar con la última tecnología en inteligencia artificial, de una manera modular, contratando sólo las funcionalidades que realmente necesite.
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>          
         </div>
       </div>
