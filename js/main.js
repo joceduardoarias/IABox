@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('#nav').onePageNav();
    
     // Back to top button
-    $(window).scroll(function() {
+    $('body').scroll(function() {
       if ($(this).scrollTop() > 100) {
         $('#btn-back-to-top').fadeIn('slow');
       } else {
@@ -30,21 +30,27 @@ $(document).ready(function(){
       return false;
     });
     //Carousel
+    // Se hace un set de la propiedad src de la estampilla
+    // para que esta cambie con cada una de las fotos.
     $('#myCarousel').on('slid.bs.carousel', function(){
       
       var objImg = $('#stamp-img');
-      
+      var botonCompra = $("#buy-button");
       if ($('#item-1').css("display")!="none") {
-        objImg.attr("src","img/stamp-6.png")
+        objImg.attr("src","img/stamp-2.png");
+        botonCompra.html("<i class='fas fa-shopping-cart'></i> Lo quiero!");
       }
       if ($('#item-2').css("display")!="none") {
-        objImg.attr("src","img/stamp-7.png")
+        objImg.attr("src","img/stamp-4.png");
+        botonCompra.html("<i class='fas fa-shopping-cart'></i> Comprar");
       }
       if ($('#item-3').css("display")!="none") {
-        objImg.attr("src","img/stamp-1.png")
+        objImg.attr("src","img/stamp-1.png");
+        botonCompra.html("<i class='fas fa-shopping-cart'></i> Comienza Ahora");
       }
       if ($('#item-4').css("display")!="none") {
-        objImg.attr("src","img/stamp-4.png")
+        objImg.attr("src","img/stamp-4.png");
+        botonCompra.html("<i class='fas fa-shopping-cart'></i> Pedir cotización");
       }
   }); 
  }); 
