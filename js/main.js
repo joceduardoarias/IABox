@@ -35,23 +35,36 @@ $(document).ready(function(){
     $('#myCarousel').on('slid.bs.carousel', function(){
       
       var objImg = $('#stamp-img');
-      var botonCompra = $("#buy-button");
+      var botonCompra = $("#buy-button");      
+      
       if ($('#item-1').css("display")!="none") {
-        objImg.attr("src","img/stamp-2.png");
+        
+        if ($(window).width()<768) {
+          objImg.attr("src","img/stamp-1.png");        
+        }else{
+          objImg.attr("src","img/stamp-2.png");
+          botonCompra.html("<i class='fas fa-shopping-cart'></i> Lo quiero!");          
         botonCompra.html("<i class='fas fa-shopping-cart'></i> Lo quiero!");
+          botonCompra.html("<i class='fas fa-shopping-cart'></i> Lo quiero!");          
+        }
+        
       }
+
       if ($('#item-2').css("display")!="none") {
         objImg.attr("src","img/stamp-4.png");
         botonCompra.html("<i class='fas fa-shopping-cart'></i> Comprar");
       }
+
       if ($('#item-3').css("display")!="none") {
         objImg.attr("src","img/stamp-1.png");
         botonCompra.html("<i class='fas fa-shopping-cart'></i> Comienza Ahora");
       }
+
       if ($('#item-4').css("display")!="none") {
-        objImg.attr("src","img/stamp-4.png");
+        objImg.attr("src","img/stamp-7.png");
         botonCompra.html("<i class='fas fa-shopping-cart'></i> Pedir cotización");
-      }
+      }     
   }); 
+  
  }); 
  

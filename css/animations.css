@@ -669,3 +669,38 @@
         }
       }
       
+@media (max-width: 1110px){
+        .wrapper {
+                max-width: 100%;
+                overflow: hidden;
+                background-color: rgba(0,0,0,0.38);
+                border-radius: 2rem;
+              }
+              .caption-text {
+                text-shadow: 0px 1px 1px #000;
+                display: inline;
+                background-color: rgba(0,0,0,0);
+                border-radius: 2em;
+                margin: 0;
+                padding: 0;
+        }
+              .marquee {
+                white-space: nowrap;
+                overflow: hidden;
+                display: inline-block;
+                animation: marquee 10s linear infinite;
+              }
+              
+              .marquee p {
+                display: inline-block;
+              }
+              
+              @keyframes marquee {
+                0% {
+                  transform: translate3d(0, 0, 0);
+                }
+                100% {
+                  transform: translate3d(-50%, 0, 0);
+                }
+              }
+}
