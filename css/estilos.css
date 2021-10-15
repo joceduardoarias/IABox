@@ -4,7 +4,6 @@ html {
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     letter-spacing: 0.025rem;
-    overflow-x: hidden;
 }
 body{
   padding: 0;
