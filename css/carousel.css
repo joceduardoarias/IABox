@@ -24,16 +24,17 @@
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 512px;
+  height: 660px;
 }
 .carousel-item > picture img {
   position: absolute;
   top: 50px;
   left: 0;
-  height: 512px;
+  /* height: 512px; */
   object-fit: cover;
   width: 100%;
   display: block;
+  min-height: 660px;
 }
 
 .carousel-caption h1,.carousel-caption p {  
@@ -64,4 +65,17 @@
     margin-top: 7rem;
   }
 }
-
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 512px;
+  }
+  .carousel-item > picture img {
+    position: absolute;
+    top: 50px;
+    left: 0;    
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    min-height: 512px;
+  }
+}

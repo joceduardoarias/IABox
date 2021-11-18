@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('#nav').onePageNav();
    
     // Back to top button
-    $('body').scroll(function() {
+    $(window).scroll(function() {
       if ($(this).scrollTop() > 100) {
         $('#btn-back-to-top').fadeIn('slow');
       } else {
@@ -44,7 +44,7 @@ $(document).ready(function(){
         }else{
           objImg.attr("src","img/stamp-2.png");
           botonCompra.html("<i class='fas fa-shopping-cart'></i> Lo quiero!");          
-        botonCompra.html("<i class='fas fa-shopping-cart'></i> Lo quiero!");
+          botonCompra.html("<i class='fas fa-shopping-cart'></i> Lo quiero!");
           botonCompra.html("<i class='fas fa-shopping-cart'></i> Lo quiero!");          
         }
         
