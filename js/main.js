@@ -65,6 +65,11 @@ $(document).ready(function(){
         botonCompra.html("<i class='fas fa-shopping-cart'></i> Pedir cotización");
       }     
   }); 
-  
+  //Esconder navbar depues de presionar click en las opciones del menú.
+  $('.js-scroll-trigger').click(function() {
+    console.log("hola");
+    $('.navbar-collapse').collapse('hide');
+  });
+
  }); 
  
