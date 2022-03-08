@@ -74,19 +74,18 @@ h4 {
 	font-weight: 400;
 	margin-bottom: 30px;
 }
-.logo-small {
+/* .logo-small {
   color: #E75F11;
   font-size: 90px;
+} */
+
+.hover-effect img{
+	transition: transform 0.3s ;
 }
 
-.logo-small sgv{
-	box-shadow: 0 0 0 3px #fff;
-	-webkit-transition: color 0.3s;
-	-moz-transition: color 0.3s;
-	transition: color 0.3s linear;
-}
-
-.logo-small:hover svg{
+.hover-effect:hover img{
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2);
 }
 
